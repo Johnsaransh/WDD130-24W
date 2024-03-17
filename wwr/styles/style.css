@@ -293,7 +293,21 @@ button {
 .moveDown {
     margin-top: 3em;
 }
-
+li{
+    color: antiquewhite;
+}
+button{
+    background-color: #F4FAFF;
+    color: #252422;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #252422;
+    color: #e8dab7;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
