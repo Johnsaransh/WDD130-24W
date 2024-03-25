@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Martian+Mono:wght@300;400&display=swap');
+
+body {
+  height: 100%;
+  background-color: #8C3535;
+  font-family: 'Gideon Roman', Helvetica, serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #F2D95C;
+  display: grid;
+  grid-template-columns: 120px auto;
+}
+
+#logo_link {
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
+
+.logo {
+  width: 80px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #F2D95C;
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+nav a {
+    text-align: center;
+    color: #F29544;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    transition: border-color 0.3s; 
+}
+  
+nav a:hover {
+    background-color: #F29544;
+    color: #8C3535;
+    border-color: #8C3535;
+}
+
+#hero {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+#hero-box {
+  grid-column: 1/4;
+  grid-row: 1/3;
+  text-align: center;
+}
+
+#hero-img {
+  padding-top: 50px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 3fr);
+}
+
+#hero-msg {
+  text-align: center;
+  display: block;
+  width: 100%;
+  justify-items: center;
+  align-items: center;
+  gap: 20px; 
+  color:#F4FAFF;
+  margin-top: 20px;
+}
+#hero-msg1 {
+  display: block;
+  width: 100%;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  gap: 20px; 
+  color:#F4FAFF
+
+}
+  
+#hero-msg p {
+    font-family: 'Gideon Roman', Helvetica, serif;
+    font-size: 1.2em;
+    color: #F4FAFF;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+  
+#hero-msg .home-title {
+    justify-self: center;
+    align-self: center;
+}
+
+.home-title {
+    font-family: 'Gideon Roman', Helvetica, serif;
+    font-size: 2em;
+    margin-top: 30px;
+    justify-content: center;
+    color: #F2D95C;
+    text-align: center;
+    text-shadow: 2px 2px 4px #F29544;
+}
+  
+main h2 {
+    text-align: center;
+    color: whitesmoke;
+    margin: 20px 0;
+}
+#join-us {
+  display: grid;
+  width: 55.5%;
+  text-align: center;
+}
+#join-us-nav {
+  text-align: center;
+  display: table-cell;
+  width: 100%;
+  padding-left: 40%;
+  padding-right: 40%;
+}
+
+#join-us2 {
+  display: grid;
+  width: 55.5%;
+  text-align: center;
+}
+#join-us-nav2 {
+  text-align: center;
+  display: table-cell;
+  width: 100%;
+  padding-left: 40%;
+  padding-right: 40%;
+}
+
+#about-me {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin-top: 50px;
+}
+#about-title {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  font-family: 'Gideon Roman', Helvetica, serif;
+  font-size: 2em;
+  margin-top: 30px;
+  justify-content: center;
+  color: #F2D95C;
+  text-align: center;
+  text-shadow: 2px 2px 4px #F29544;
+}
+#notebook {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  width: 90%;
+  margin-top: 23px;
+  border: 5px solid #F2D95C;
+  box-shadow: 2px 2px 4px #F29544;
+  transition-duration: 0.5s;
+}
+#notebook:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+  transition-duration: 0.5s;
+}
+
+#about-me p {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  color: white;
+  width: 90%;
+  padding-left: 30px;
+}
+
+footer {
+  width: 100%;
+  background-color: #F2D95C;
+  color: #8C3535;
+  font-size: 1em;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-color: #8C3535;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer a {
+  color: #8C3535;
+  text-decoration: none;
+  padding: 10px;
+}
+
+footer a:hover {
+  background-color: #F29544;
+  color: #8C3535;
+  border-color: #8C3535;
+  border: 1px solid transparent;
+}
+
+.social img {
+  padding: 10px;
+  transition: background-color 0.5s;
+}
+
+.social img:hover {
+  background-color: #F29544;
+  border-radius: 50%;
+}
+
+#poems {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 10%;
+  transition-duration: 0.5s;
+  border: 5px solid #F2D95C;
+  transition-duration: 0.5s;
+}
+
+#poems:hover {
+  transform: scale(1.1);
+  opacity: 1;
+  transition-duration: 0.5s;
+}
+.resources_main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.resource-one {
+  grid-column: 1/2;
+  width: 90%;
+  background-color: #F2D95C;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 1rem;
+  text-align: center;
+  color:#8C3535;
+  transition-duration: 0.5s;
+}
+
+.resource-one a{
+  text-decoration: none;
+  color: #8C3535;
+  font-size: 1em;
+
+}
+
+.resource-two {
+  grid-column: 2/3;
+  width: 90%;
+  background-color: #F2D95C;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 1rem;
+  text-align: center;
+  color:#8C3535;
+  transition-duration: 0.5s;
+}
+.resource-two a{
+  text-decoration: none;
+  color: #8C3535;
+  font-size: 1em;
+
+}
+
+.resource-three {
+  grid-column: 3/4;
+  width: 90%;
+  background-color: #F2D95C;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 1rem;
+  text-align: center;
+  color:#8C3535;
+  transition-duration: 0.5s;
+}
+.resource-three a{
+  text-decoration: none;
+  color: #8C3535;
+  font-size: 1em;
+
+}
+
+.resource-one span, .resource-two span, .resource-three span{
+  text-decoration: underline;
+}
+
+.resource-one:hover {
+  transform: scale(0.9);
+  opacity: 0.8;
+  transition-duration: 0.5s;
+}
+
+.resource-two:hover {
+  transform: scale(0.9);
+  opacity: 0.8;
+  transition-duration: 0.5s;
+}
+
+.resource-three:hover {
+  transform: scale(0.9);
+  opacity: 0.8;
+  transition-duration: 0.5s;
+}
+
+.resources_main img {
+  height: 400px;
+  width: 100%;
+  border-radius: 15px 0 0 15px;
+}
+
+.resources_sect h1 {
+  color: #8C3535;
+  padding: 1rem;
+}
+
+.resource-one,
+.resource-two,
+.resource-three {
+  padding: 10px; /* Adjust padding as needed */
+}
+
+
+#additional-video {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#additional-video p{
+  color: #F4FAFF;
+}
+
+#additional-video video {
+  width: 80%;
+  max-width: 800px;
+  height: 450px;
+  display: block;
+  margin: 0 auto;
+}
+
+#youtube-video {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#youtube-video iframe {
+  width: 80%;
+  max-width: 800px;
+  height: 450px; 
+  display: block;
+  margin: 0 auto; 
+}
+
+#quote img{
+  display: flex;
+  align-items: center;
+  margin: 10%;
+  width: 80%;
+  justify-content: center;
+}
+
+#myVideo {
+  width: 80%;
+  position: relative;
+  padding-top: 50px;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  font-family: 'Gideon Roman', Helvetica, serif;
+  position: sticky;
+  width: 500px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #8C3535;
+  color: #F2D95C;
+  cursor: pointer;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 10px;
+}
+
+#myBtn:hover {
+  background: #F2D95C;
+  color: #8C3535;
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #e8dab7;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color:#F29544
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #e8dab7;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #F2D95C;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  padding-left: 90px;
+}
+
+button {
+  margin-left: 0.5em;
+}
+
+#feedback {
+    background-color: #e8dab7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+
+#hero-video {
+  display: flex; /* Use flexbox for centering */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: auto; /* Adjust height to be auto so it only takes the space it needs */
+  margin-top: 20px; /* Add margin for spacing, adjust as needed */
+}

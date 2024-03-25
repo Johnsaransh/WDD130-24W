@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dollar Dynasty | Finances | Home </title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/custom-styles.css">
+</head>
+
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/Dollardynasty-logos.jpeg" alt="logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="finances.html">Finances</a>
+                <a href="guidance.html">Guidance</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+        </header>
+        <div id="hero-video">
+            <video autoplay loop id="myVideo">
+                <source src="" type="video/mp4">
+            </video>
+            <button id="myBtn" onclick="toggleVideo()">Play</button>
+        </div>
+        <section id="hero-msg">
+            <h1 class="home-title">DropShipping</h1>
+            <p>
+        <div id="join-us">
+            <nav id="join-us-nav">
+                <a href="contactus.html">Join us</a>
+            </nav>
+        </div>
+        <section id="about-me">
+            <h2 id="about-title"></h2>
+            <a href="contactus.html">
+                <img id="notebook" src="" alt="quote">
+            </a>
+            <p></p>
+        </section>
+    </div>
+    <footer>
+        <p>Dollar Dynasty &copy; 2024, Saransh John</p>
+        <p><a href="site-plan.html">Site Plan</a></p>
+        <p><a href="contactus.html">Contact Us</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+    <script>
+       
+        var video = document.getElementById("myVideo");
+
+        
+        var btn = document.getElementById("myBtn");
+
+        
+        function toggleVideo() {
+            if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+            } else {
+                video.pause();
+                btn.innerHTML = "Play";
+            }
+        }
+    </script>
+</body>
+
+</html>
