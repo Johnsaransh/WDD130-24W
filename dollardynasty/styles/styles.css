@@ -2,7 +2,7 @@
 
 body {
   height: 100%;
-  background-color: #8C3535;
+  background-color: #001B2E;
   font-family: 'Gideon Roman', Helvetica, serif;
   font-size: 22px;
   margin: 0;
@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  background-color: #F2D95C;
+  background-color: #E7C24F;
   display: grid;
   grid-template-columns: 120px auto;
 }
@@ -28,7 +28,7 @@ header {
 nav {
   display: flex;
   justify-content: space-around;
-  background-color: #F2D95C;
+  background-color: #E7C24F;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -36,7 +36,7 @@ nav {
 
 nav a {
     text-align: center;
-    color: #F29544;
+    color: #001B2E;
     text-decoration: none;
     padding: 10px 15px;
     border: 1px solid transparent;
@@ -44,9 +44,9 @@ nav a {
 }
   
 nav a:hover {
-    background-color: #F29544;
-    color: #8C3535;
-    border-color: #8C3535;
+    background-color: #001B2E;
+    color: #F9EBE0;
+    border-color: #001B2E;
 }
 
 #hero {
@@ -111,9 +111,9 @@ nav a:hover {
     font-size: 2em;
     margin-top: 30px;
     justify-content: center;
-    color: #F2D95C;
+    color: #E7C24F;
     text-align: center;
-    text-shadow: 2px 2px 4px #F29544;
+    text-shadow: 2px 2px 4px #001B2E;
 }
   
 main h2 {
@@ -159,17 +159,19 @@ main h2 {
   font-size: 2em;
   margin-top: 30px;
   justify-content: center;
-  color: #F2D95C;
+  color: #E7C24F;
   text-align: center;
-  text-shadow: 2px 2px 4px #F29544;
+  text-shadow: 2px 2px 4px #001B2E;
+  padding-right: 50%;
 }
+
 #notebook {
   grid-column: 3/4;
   grid-row: 2/3;
   width: 90%;
   margin-top: 23px;
-  border: 5px solid #F2D95C;
-  box-shadow: 2px 2px 4px #F29544;
+  border: 5px solid #E7C24F;
+  box-shadow: 2px 2px 4px #001B2E;
   transition-duration: 0.5s;
 }
 #notebook:hover {
@@ -188,28 +190,28 @@ main h2 {
 
 footer {
   width: 100%;
-  background-color: #F2D95C;
-  color: #8C3535;
+  background-color: #E7C24F;
+  color: #001B2E;
   font-size: 1em;
   margin-top: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-color: #8C3535;
+  border-color: #001B2E;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 footer a {
-  color: #8C3535;
+  color: #001B2E;
   text-decoration: none;
   padding: 10px;
 }
 
 footer a:hover {
-  background-color: #F29544;
-  color: #8C3535;
-  border-color: #8C3535;
+  background-color: #001B2E;
+  color: #F9EBE0;
+  border-color: #001B2E;
   border: 1px solid transparent;
 }
 
@@ -219,7 +221,7 @@ footer a:hover {
 }
 
 .social img:hover {
-  background-color: #F29544;
+  background-color: #001B2E;
   border-radius: 50%;
 }
 
@@ -229,7 +231,7 @@ footer a:hover {
   width: 80%;
   margin: 10%;
   transition-duration: 0.5s;
-  border: 5px solid #F2D95C;
+  border: 5px solid #E7C24F;
   transition-duration: 0.5s;
 }
 
@@ -250,18 +252,18 @@ footer a:hover {
 .resource-one {
   grid-column: 1/2;
   width: 90%;
-  background-color: #F2D95C;
+  background-color: #E7C24F;
   border-radius: 15px;
   overflow: hidden;
   margin: 1rem;
   text-align: center;
-  color:#8C3535;
+  color:#001B2E;
   transition-duration: 0.5s;
 }
 
 .resource-one a{
   text-decoration: none;
-  color: #8C3535;
+  color: #001B2E;
   font-size: 1em;
 
 }
@@ -269,17 +271,17 @@ footer a:hover {
 .resource-two {
   grid-column: 2/3;
   width: 90%;
-  background-color: #F2D95C;
+  background-color: #E7C24F;
   border-radius: 15px;
   overflow: hidden;
   margin: 1rem;
   text-align: center;
-  color:#8C3535;
+  color:#001B2E;
   transition-duration: 0.5s;
 }
 .resource-two a{
   text-decoration: none;
-  color: #8C3535;
+  color: #001B2E;
   font-size: 1em;
 
 }
@@ -287,17 +289,17 @@ footer a:hover {
 .resource-three {
   grid-column: 3/4;
   width: 90%;
-  background-color: #F2D95C;
+  background-color: #E7C24F;
   border-radius: 15px;
   overflow: hidden;
   margin: 1rem;
   text-align: center;
-  color:#8C3535;
+  color:#001B2E;
   transition-duration: 0.5s;
 }
 .resource-three a{
   text-decoration: none;
-  color: #8C3535;
+  color: #001B2E;
   font-size: 1em;
 
 }
@@ -331,7 +333,7 @@ footer a:hover {
 }
 
 .resources_sect h1 {
-  color: #8C3535;
+  color: #001B2E;
   padding: 1rem;
 }
 
@@ -404,8 +406,8 @@ footer a:hover {
   font-size: 18px;
   padding: 10px;
   border: none;
-  background: #8C3535;
-  color: #F2D95C;
+  background: #001B2E;
+  color: #E7C24F;
   cursor: pointer;
   bottom: 10px;
   left: 50%;
@@ -414,8 +416,8 @@ footer a:hover {
 }
 
 #myBtn:hover {
-  background: #F2D95C;
-  color: #8C3535;
+  background: #E7C24F;
+  color: #001B2E;
 }
 
 form {
@@ -430,7 +432,7 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  color:#F29544
+  color:#001B2E
 }
 
 form li + li {
@@ -452,7 +454,7 @@ input,textarea {
 
 input:focus,
 textarea:focus {
-  border-color: #F2D95C;
+  border-color: #E7C24F;
 }
 
 textarea {
